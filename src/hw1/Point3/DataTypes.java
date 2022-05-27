@@ -1,5 +1,6 @@
 package hw1.Point3;
 
+//test
 public class DataTypes {
     public static void main(String[] args) {
         byte myByte = 1; // -128 - 127 (1byte)
