@@ -1,2 +1,4 @@
-package hw2;public class Task8 {
+package hw2;
+
+public class Task8 {
 }
