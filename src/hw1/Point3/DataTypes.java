@@ -10,7 +10,7 @@ public class DataTypes {
         System.out.print(myInt + "|");
         long myLong = 10000000000l; //8bytes
         System.out.println(myLong + "|");
-
+// komentar dla proby zapysu
         char myChar = 66; //0-2^16 - 1 (2 byte)
         System.out.println(myChar);
         char myCharactier = 'B';
