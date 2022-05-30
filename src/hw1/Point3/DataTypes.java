@@ -18,13 +18,9 @@ public class DataTypes {
         System.out.println(myCharactier);
 
         double myDouble = 0.3; //8 byte
-        //myDouble = 0.3
-        System.out.println(myDouble);
+                System.out.println(myDouble);
                 int s = (int) myDouble; // trunc
                 System.out.println(s);
-        //          тут мало виводити дробну частину
-                      //  int d = Math.round(myDouble); //java: incompatible types: possible
-                      //  System.out.println(d);        //         lossy conversion from long to int
 
         float myFloat = 0.3f; //4 byte
         System.out.println(myFloat);
