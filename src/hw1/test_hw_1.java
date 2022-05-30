@@ -30,6 +30,5 @@ public class test_hw_1 {
         int myIntegerr = 0;
         System.out.println(--myIntegerr);
 
-
     }
 }
