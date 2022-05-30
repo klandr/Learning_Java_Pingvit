@@ -5,7 +5,8 @@ public class Task9 {
         char a = '*';
         System.out.println(a);
         for (int i =0;i<=1;i++){
-            for (int u = 0; u<=1; u++)
+            System.out.println(a);
+            for (int u = 0; u<=3; u++)
                 System.out.print(a);
         }
 
