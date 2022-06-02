@@ -1,5 +1,7 @@
 package hw2;
 
+//+-
+//Вопрос задачи: сколько он пробежит суммарно за все дни. Программа ответ не дает
 public class Task1 {
     public static void main(String[] args) {
         double b = 10;
