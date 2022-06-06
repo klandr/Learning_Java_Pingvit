@@ -1,4 +1,4 @@
-package hw2;
+package hw2.task_7;
 
 //+-
 public class Task7 {

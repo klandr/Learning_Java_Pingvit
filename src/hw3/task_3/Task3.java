@@ -1,4 +1,4 @@
-package hw3;
+package hw3.task_3;
 
 import java.util.Arrays;
 

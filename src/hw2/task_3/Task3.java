@@ -1,4 +1,4 @@
-package hw2;
+package hw2.task_3;
 
 //+- идея реализации хороша
 public class Task3 {
