@@ -18,7 +18,6 @@ public class Task6 {
         System.out.println("is " + summEven + " even");
 
         int a = 0;
-        int sumEvenEven;
         int[] evenArray = new int[summEven];
 
         for (int q = 0; q < array.length; q++){
