@@ -2,6 +2,7 @@ package hw3.task_3;
 
 import java.util.Arrays;
 
+ //+
 public class Task3 {
     public static void main(String[] args) {
         int[] array = new int[4];
@@ -17,6 +18,6 @@ public class Task3 {
             }
         }
         System.out.print(Arrays.toString(array));
-
+        //Лишняя пустая строчка
     }
 }
