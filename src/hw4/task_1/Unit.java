@@ -1,9 +1,11 @@
 package hw4.task_1;
 
+//+- код не отформатирован 
 public class Unit {
-    String name;
+    String name; //поля не приватные
     int age;
 
+    //Имя метода должно быть с маленькой буквы 
     public String Show(){
         return this.name + " " + this.age;
     }
@@ -12,4 +14,6 @@ public class Unit {
     this.name = name;
     this.age = age;
     }
+
+    //Нет геттеров
 }
