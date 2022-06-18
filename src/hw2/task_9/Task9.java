@@ -13,11 +13,5 @@ public class Task9 {
 
         for (int u = 1; u<=3; u++)
             System.out.println(a);
-//Не забываем чистить код от рабочих заметок
-            /*    for (int y = 1; y<=2; y++)
-                    System.out.print(a);
-*/
-            //System.out.println(a);
-
     }
 }
