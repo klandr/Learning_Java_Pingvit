@@ -1,5 +1,6 @@
 package hw6.task_2;
 
+//- для хранения состояния коробки достаточно одной переменной с числом - текущая передача
 public class Gearbox {
     private String gearUp;
     private String gearLow;
