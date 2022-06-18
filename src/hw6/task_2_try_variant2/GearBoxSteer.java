@@ -1,5 +1,6 @@
 package hw6.task_2_try_variant2;
 
+//+- тот же комментарий как к имплементации коробки
 public class GearBoxSteer implements GearBox {
 
     @Override
