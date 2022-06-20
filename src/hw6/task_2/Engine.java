@@ -1,10 +1,11 @@
 package hw6.task_2;
 
+// Интересная затея, но нет. Твой мотор должен иметь состояние вкл-выкл, для этого достаточно одного boolean поля
 public class Engine {
-    private String stopEngine;
+    private String stopEngine; 
     private String startEngine;
     public String getStopEngine() {
-        System.out.println("print get Stop engine");    //|get  |
+        System.out.println("print get Stop engine");    //|get  | <- все эти комментарии не улучшают читаемость кода 
         return stopEngine;                              //|     |
     }                                                   //|     |     Stop engine
      public void setStopEngine(String stopEngine) {
