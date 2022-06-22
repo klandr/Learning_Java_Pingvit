@@ -24,7 +24,7 @@ public class task_4 {
         System.out.println(isText.contains(found_4_Text));
 
         //  charAt(i)
-       // System.out.println(isText.length());
+        // System.out.println(isText.length());
         System.out.println(isText);
 
         String[] split = isText.split(" ");
