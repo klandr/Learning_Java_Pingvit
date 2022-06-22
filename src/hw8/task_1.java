@@ -8,7 +8,7 @@ public class task_1 {
             x = a / b;
             return x;
         } else {
-            System.out.println(" ay yai yai your mum don't afford you divide on 0  ");
+            System.out.println("ay yai yai your mum don't afford you divide on 0  ");
             return b; // i don't understand for what this return
         }
     }
