@@ -16,5 +16,6 @@ public class task_1 {
     public static void main(String[] args) {
         System.out.println(myDivide(6, 2));
         System.out.println(myDivide(7, 0));
+
     }
 }
