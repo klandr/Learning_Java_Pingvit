@@ -15,14 +15,23 @@ public class mineExeptionMine {
             System.out.println("Enter number between 0 and 5, please");
             numberSizeArray = scanNumber.next();
             int a = Integer.valueOf(numberSizeArray);
+
+            if ((a > 5) || (a < 0)) {
+                System.out.println("your sign = " + numberSizeArray + " Re Enter number between 0 and 5, please");
+                return;
+            }
+
             int[] myArray = new int[a];
             System.out.println(Arrays.toString(myArray));
-            // System.out.println(scanNumber);
             System.out.println("thanks");
             System.out.println(numberSizeArray);
-        } catch (NumberFormatException e)  {
-            throw new mineExeption ("hjfghf", numberSizeArray);//i just print 0
-        }
 
+        } catch (NumberFormatException e) {
+            try {
+                throw new mineExeption("Enter number", numberSizeArray);//i just print 0
+            } catch (mineExeption ee) {
+                System.out.println("your sign = " + ee.getCheckNumber() + " Enter number between 0 and 5, please");
+            }
+        }
     }
 }
