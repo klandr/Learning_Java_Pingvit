@@ -21,7 +21,7 @@ public class mineExeptionMine {
             System.out.println("thanks");
             System.out.println(numberSizeArray);
         } catch (NumberFormatException e)  {
-           // throw new mineExeption ("hjfghf", numberSizeArray);//i just print 0
+            throw new mineExeption ("hjfghf", numberSizeArray);//i just print 0
         }
 
     }
