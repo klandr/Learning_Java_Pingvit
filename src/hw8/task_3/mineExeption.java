@@ -1,7 +1,7 @@
 package hw8.task_3;
 
 public class mineExeption extends Exception{
-    private int checkNumber;
+    private Integer checkNumber;
 
     public mineExeption(String message, int checkNumber) {
         super(message);
