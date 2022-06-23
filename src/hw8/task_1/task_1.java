@@ -1,4 +1,4 @@
-package hw8;
+package hw8.task_1;
 
 public class task_1 {
     static int myDivide(int a, int b) {
