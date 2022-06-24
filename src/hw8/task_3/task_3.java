@@ -13,15 +13,15 @@ public class task_3 {
         Scanner scanNumber = new Scanner(System.in);
 
         try {
-            System.out.println("Enter number between 0 and 5, please");
+            System.out.println("Enter number between 0 and 5, please"); //5 стоит вынести в переменную 
             int numberSizeArray = scanNumber.nextInt();
-            int[] myArray = new int[numberSizeArray];
-            System.out.println(Arrays.toString(myArray));
+            int[] myArray = new int[numberSizeArray]; //не хватает проверки введенного числа и выкидывания своего эксепшена
+            System.out.println(Arrays.toString(myArray)); //не обязательно печатать - он будет проинициализирован нулями
             System.out.println("thanks");
             System.out.println(numberSizeArray);
         } catch (InputMismatchException e) {
-
-            System.out.println("your sign isn't a number");
+//лишняя пустая строчка
+            System.out.println("your sign isn't a number"); //-> your input
         }
 
 
