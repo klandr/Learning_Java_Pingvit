@@ -9,7 +9,7 @@ public class Task1 {
     //private static final String PATH = "F:\\java projects\\pingvit-java\\src\\hw9\\task_1\\fileToWrite.txt";
 
     public static void main(String[] args) {
-        String path = "F:\\java projects\\pingvit-java\\src\\hw9\\task_1\\fileToWrite.txt";
+        String path = "c:\\java projects\\pingvit-java\\src\\hw9\\task_1\\fileToWrite.txt";
         //  int[] array = {6, 5, 3, 2, 2, 4, 4, 5, 5, 5};
 
         writeToFile(path);
