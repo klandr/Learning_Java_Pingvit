@@ -1,7 +1,7 @@
 package hw8.task_1;
 
 //+- Название класса должно быть Task1
-public class task_1 {
+public class Task1 {
     //не хватает модификатора доступа. Когда метод используется только в классе, есть смысл использовать private 
     static int myDivide(int a, int b) {
 //лишняя пустая строчка

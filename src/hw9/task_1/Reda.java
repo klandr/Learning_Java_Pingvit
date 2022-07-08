@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Reda {
-    private static final String PATH = "F:\\java projects\\pingvit-java\\src\\hw9\\task_1\\fileToWrite.txt";
+    private static final String PATH = "C:\\java projects\\pingvit-java\\src\\hw9\\task_1\\fileToWrite.txt";
     public static void main(String[] args) {
         try (FileReader fr = new FileReader(PATH)){
             int read;
