@@ -4,6 +4,7 @@ package hw13.task_1;
 
 public class Task1 {
 
+
 }
 
 
