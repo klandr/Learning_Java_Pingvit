@@ -3,6 +3,9 @@ package hw13.task_1;
  //Есть коллекция строк, нужно убрать все элементы, длина которых меньше 5 символов
 
 public class Task1 {
+    public static void main(String[] args) {
+
+    }
 
 
 }
