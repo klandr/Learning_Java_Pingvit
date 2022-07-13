@@ -4,7 +4,7 @@ package hw13.task_1;
 
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println("jkhjghghg");
 
     }
 
