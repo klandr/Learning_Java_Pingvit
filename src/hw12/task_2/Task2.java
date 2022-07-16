@@ -1,7 +1,9 @@
 package hw12.task_2;
 import java.util.function.Function;
+
+//+
 //Task 2
-//Íàïèñàòü ôóíêöèþ ïåðåâîäà ÷èñëà â ñòðîêó ñ äîáàâëåíèåì äåíåæíîé åäèíèöû. Íàïðèìåð, 5 -> 5 ðóáëåé.
+//ÃÃ Ã¯Ã¨Ã±Ã Ã²Ã¼ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¾ Ã¯Ã¥Ã°Ã¥Ã¢Ã®Ã¤Ã  Ã·Ã¨Ã±Ã«Ã  Ã¢ Ã±Ã²Ã°Ã®ÃªÃ³ Ã± Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥Ã¬ Ã¤Ã¥Ã­Ã¥Ã¦Ã­Ã®Ã© Ã¥Ã¤Ã¨Ã­Ã¨Ã¶Ã». ÃÃ Ã¯Ã°Ã¨Ã¬Ã¥Ã°, 5 -> 5 Ã°Ã³Ã¡Ã«Ã¥Ã©.
 public class Task2 {
     public static void main(String[] args) {
         Function<Integer, String> transfotm = i -> String.valueOf(i);
