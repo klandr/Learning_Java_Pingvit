@@ -1,7 +1,9 @@
 package hw12.task_3;
 import java.util.function.BinaryOperator;
+
+//+
 //Task 3
-//Используя интерфейс BinaryOperator написать лямбда-выражение, которое бы умножало одно целое число на другое
+//Г€Г±ГЇГ®Г«ГјГ§ГіГї ГЁГ­ГІГҐГ°ГґГҐГ©Г± BinaryOperator Г­Г ГЇГЁГ±Г ГІГј Г«ГїГ¬ГЎГ¤Г -ГўГ»Г°Г Г¦ГҐГ­ГЁГҐ, ГЄГ®ГІГ®Г°Г®ГҐ ГЎГ» ГіГ¬Г­Г®Г¦Г Г«Г® Г®Г¤Г­Г® Г¶ГҐГ«Г®ГҐ Г·ГЁГ±Г«Г® Г­Г  Г¤Г°ГіГЈГ®ГҐ
 public class Mult {
     public static void main(String[] args) {
         BinaryOperator <Integer> multipler = (x,y) -> (x*y);
